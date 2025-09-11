@@ -16,7 +16,7 @@ int main(){
     printf("Taper votre age :");
     scanf("%d", &p1.age);
 
-    printf("\n|| VOTRE INFORMATIONS CARD ||\n");
+    printf("\n|| VOTRE CATRE D'INFORMATION ||\n");
     printf("Le nom : %s\n", p1.prenom);
     printf("Le prenom : %s\n", p1.nom);
     printf("L'age : %d ans\n", p1.age);
