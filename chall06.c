@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-struct Produit {
+typedef struct {
     char nom[32];
     int prix;
     int quantite;
-};
+}Produit;
 
 int main() {
 
@@ -13,7 +13,7 @@ int main() {
     printf("Taper le nombre des produit : ");
     scanf("%d" , &n);
 
-    struct Produit pro[n];
+    Produit pro[n];
 
     for (i = 0 ; i < n ; i++) {
         printf("Produit %d : \n" , i + 1);
